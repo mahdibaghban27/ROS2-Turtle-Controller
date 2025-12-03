@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/distance_node.dir/src/distance_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ui_node.dir/src/ui_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ui_node[0m
+[ 75%] Built target ui_node

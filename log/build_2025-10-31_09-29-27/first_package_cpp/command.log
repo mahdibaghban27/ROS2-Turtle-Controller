@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/first_package_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/first_package_cpp
+Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/first_package_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/first_package_cpp
+Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/first_package_cpp -- -j16 -l16
+Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/first_package_cpp -- -j16 -l16
+Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/first_package_cpp
+Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/first_package_cpp

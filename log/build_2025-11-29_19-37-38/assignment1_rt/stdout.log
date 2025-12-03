@@ -1,0 +1,24 @@
+[ 50%] Built target ui_node
+[ 75%] [32mBuilding CXX object CMakeFiles/distance_node.dir/src/distance_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable distance_node[0m
+[100%] Built target distance_node
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/lib/assignment1_rt/ui_node
+-- Set non-toolchain portion of runtime path of "/root/ros2_ws/src/install/assignment1_rt/lib/assignment1_rt/ui_node" to ""
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/lib/assignment1_rt/distance_node
+-- Set non-toolchain portion of runtime path of "/root/ros2_ws/src/install/assignment1_rt/lib/assignment1_rt/distance_node" to ""
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.dsv
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+-- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.xml

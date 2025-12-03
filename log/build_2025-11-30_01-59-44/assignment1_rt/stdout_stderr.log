@@ -1,0 +1,15 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ui_node.dir/src/ui_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/distance_node.dir/src/distance_node.cpp.o[0m
+[01m[K/root/ros2_ws/src/assignment1_rt/src/distance_node.cpp:124:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  124 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/root/ros2_ws/src/assignment1_rt/src/distance_node.cpp:125:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  125 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[ 75%] [32m[1mLinking CXX executable ui_node[0m
+gmake[2]: *** [CMakeFiles/distance_node.dir/build.make:76: CMakeFiles/distance_node.dir/src/distance_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/distance_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] Built target ui_node
+gmake: *** [Makefile:146: all] Error 2

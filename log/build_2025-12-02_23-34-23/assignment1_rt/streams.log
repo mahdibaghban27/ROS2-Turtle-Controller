@@ -1,0 +1,27 @@
+[0.015s] Invoking command in '/root/ros2_ws/src/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/assignment1_rt -- -j16 -l16
+[0.102s] [ 25%] [32mBuilding CXX object CMakeFiles/ui_node.dir/src/ui_node.cpp.o[0m
+[0.102s] [ 75%] Built target distance_node
+[7.025s] [100%] [32m[1mLinking CXX executable ui_node[0m
+[7.269s] [100%] Built target ui_node
+[7.296s] Invoked command in '/root/ros2_ws/src/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/assignment1_rt -- -j16 -l16
+[7.309s] Invoking command in '/root/ros2_ws/src/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/assignment1_rt
+[7.322s] -- Install configuration: ""
+[7.323s] -- Installing: /root/ros2_ws/src/install/assignment1_rt/lib/assignment1_rt/ui_node
+[7.326s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/src/install/assignment1_rt/lib/assignment1_rt/ui_node" to ""
+[7.326s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/lib/assignment1_rt/distance_node
+[7.326s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+[7.327s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+[7.327s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+[7.327s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+[7.327s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+[7.328s] -- Installing: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.dsv
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+[7.328s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+[7.329s] -- Up-to-date: /root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.xml
+[7.331s] Invoked command in '/root/ros2_ws/src/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/assignment1_rt

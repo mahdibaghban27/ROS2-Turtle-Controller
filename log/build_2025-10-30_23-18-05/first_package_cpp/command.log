@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/first_package_cpp -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/first_package_cpp
+Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/first_package_cpp -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/first_package_cpp

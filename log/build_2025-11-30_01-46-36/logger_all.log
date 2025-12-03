@@ -1,0 +1,233 @@
+[0.141s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.141s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x777905f0dc70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77790602e150>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77790602e150>>, mixin_verb=('build',))
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.192s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.193s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_ws/src'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment1_rt' with type 'ros.ament_cmake' and name 'assignment1_rt'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_2) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment_2' with type 'ros.ament_cmake' and name 'assignment_2'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'first_package_cpp' with type 'ros.ament_cmake' and name 'first_package_cpp'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'assignment1_rt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/src/build/assignment1_rt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/src/install/assignment1_rt', 'merge_install': False, 'path': '/root/ros2_ws/src/assignment1_rt', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'assignment_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'assignment_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/src/build/assignment_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/src/install/assignment_2', 'merge_install': False, 'path': '/root/ros2_ws/src/assignment_2', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'first_package_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/src/build/first_package_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/src/install/first_package_cpp', 'merge_install': False, 'path': '/root/ros2_ws/src/first_package_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/assignment1_rt' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/assignment1_rt'
+[0.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/assignment_2' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/assignment_2'
+[0.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/first_package_cpp' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/first_package_cpp'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/assignment1_rt -- -j16 -l16
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/build/assignment_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/assignment_2 -- -j16 -l16
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/first_package_cpp -- -j16 -l16
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/build/assignment_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/assignment_2 -- -j16 -l16
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/build/assignment_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/assignment_2
+[0.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assignment_2)
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/build/assignment_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/assignment_2
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2' for CMake module files
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2' for CMake config files
+[0.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment_2', 'cmake_prefix_path')
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/assignment_2/share/assignment_2/hook/cmake_prefix_path.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/src/install/assignment_2/share/assignment_2/hook/cmake_prefix_path.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/assignment_2/share/assignment_2/hook/cmake_prefix_path.sh'
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/bin'
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/lib/pkgconfig/assignment_2.pc'
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/lib/python3.12/site-packages'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/bin'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.ps1'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.dsv'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.sh'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.bash'
+[0.391s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.zsh'
+[0.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/src/install/assignment_2/share/colcon-core/packages/assignment_2)
+[0.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assignment_2)
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2' for CMake module files
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2' for CMake config files
+[0.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment_2', 'cmake_prefix_path')
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/assignment_2/share/assignment_2/hook/cmake_prefix_path.ps1'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/src/install/assignment_2/share/assignment_2/hook/cmake_prefix_path.dsv'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/assignment_2/share/assignment_2/hook/cmake_prefix_path.sh'
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/bin'
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/lib/pkgconfig/assignment_2.pc'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/lib/python3.12/site-packages'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment_2/bin'
+[0.397s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.bash'
+[0.400s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment_2/share/assignment_2/package.zsh'
+[0.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/src/install/assignment_2/share/colcon-core/packages/assignment_2)
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/first_package_cpp -- -j16 -l16
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/first_package_cpp
+[0.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_package_cpp)
+[0.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/first_package_cpp
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp' for CMake module files
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp' for CMake config files
+[0.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_package_cpp', 'cmake_prefix_path')
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/hook/cmake_prefix_path.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/hook/cmake_prefix_path.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/hook/cmake_prefix_path.sh'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/lib'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/bin'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/lib/pkgconfig/first_package_cpp.pc'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/lib/python3.12/site-packages'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/bin'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.sh'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.bash'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.zsh'
+[0.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/src/install/first_package_cpp/share/colcon-core/packages/first_package_cpp)
+[0.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_package_cpp)
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp' for CMake module files
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp' for CMake config files
+[0.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_package_cpp', 'cmake_prefix_path')
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/hook/cmake_prefix_path.ps1'
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/hook/cmake_prefix_path.dsv'
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/hook/cmake_prefix_path.sh'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/lib'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/bin'
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/lib/pkgconfig/first_package_cpp.pc'
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/lib/python3.12/site-packages'
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/first_package_cpp/bin'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.dsv'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.sh'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.bash'
+[0.445s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.zsh'
+[0.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/src/install/first_package_cpp/share/colcon-core/packages/first_package_cpp)
+[6.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/build/assignment1_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/assignment1_rt -- -j16 -l16
+[6.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assignment1_rt)
+[6.585s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment1_rt' for CMake module files
+[6.585s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment1_rt' for CMake config files
+[6.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'cmake_prefix_path')
+[6.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.ps1'
+[6.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.dsv'
+[6.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.sh'
+[6.587s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment1_rt/lib'
+[6.587s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment1_rt/bin'
+[6.587s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment1_rt/lib/pkgconfig/assignment1_rt.pc'
+[6.588s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment1_rt/lib/python3.12/site-packages'
+[6.588s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/install/assignment1_rt/bin'
+[6.588s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.ps1'
+[6.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.dsv'
+[6.589s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.sh'
+[6.590s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.bash'
+[6.590s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/install/assignment1_rt/share/assignment1_rt/package.zsh'
+[6.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/src/install/assignment1_rt/share/colcon-core/packages/assignment1_rt)
+[6.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[6.602s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.612s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.613s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.613s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.613s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.615s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[6.615s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/install/local_setup.ps1'
+[6.617s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/src/install/_local_setup_util_ps1.py'
+[6.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/install/setup.ps1'
+[6.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/install/local_setup.sh'
+[6.621s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/src/install/_local_setup_util_sh.py'
+[6.622s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/install/setup.sh'
+[6.622s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/install/local_setup.bash'
+[6.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/install/setup.bash'
+[6.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/install/local_setup.zsh'
+[6.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/install/setup.zsh'

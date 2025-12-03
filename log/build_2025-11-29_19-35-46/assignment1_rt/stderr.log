@@ -1,0 +1,14 @@
+[01m[K/root/ros2_ws/src/assignment1_rt/src/distance_node.cpp:110:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid DistanceNode::[01;32m[Kstop_turtle[m[K(rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid DistanceNode::[01;32m[Kstop_turtle[m[K(rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::SharedPtr)[m[K’
+  110 |     void [01;31m[Kstop_turtle[m[K(rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub)
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/assignment1_rt/src/distance_node.cpp:97:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid DistanceNode::[01;32m[Kstop_turtle[m[K(rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::SharedPtr)[m[K’
+   97 |    void [01;36m[Kstop_turtle[m[K(rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub)
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/assignment1_rt/src/distance_node.cpp:[m[K In member function ‘[01m[Kvoid DistanceNode::[01;32m[Kcompute_logic[m[K()[m[K’:
+[01m[K/root/ros2_ws/src/assignment1_rt/src/distance_node.cpp:82:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_turtles[m[K’ was not declared in this scope; did you mean ‘[01m[Kstop_turtle[m[K’?
+   82 |             [01;31m[Kstop_turtles[m[K();
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+      |             [32m[Kstop_turtle[m[K
+gmake[2]: *** [CMakeFiles/distance_node.dir/build.make:76: CMakeFiles/distance_node.dir/src/distance_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/distance_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

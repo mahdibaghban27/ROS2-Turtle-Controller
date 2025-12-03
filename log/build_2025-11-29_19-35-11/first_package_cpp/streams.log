@@ -1,0 +1,47 @@
+[0.033s] Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/first_package_cpp -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/first_package_cpp
+[0.194s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.603s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.672s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.778s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.812s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.060s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.067s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.408s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.445s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.641s] -- Configured cppcheck include dirs: 
+[1.641s] -- Configured cppcheck exclude dirs and/or files: 
+[1.642s] -- Added test 'lint_cmake' to check CMake code style
+[1.644s] -- Added test 'uncrustify' to check C / C++ code style
+[1.644s] -- Configured uncrustify additional arguments: 
+[1.645s] -- Added test 'xmllint' to check XML markup files
+[1.649s] -- Configuring done (1.5s)
+[1.681s] -- Generating done (0.0s)
+[1.689s] -- Build files have been written to: /root/ros2_ws/src/build/first_package_cpp
+[1.702s] Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/first_package_cpp -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/first_package_cpp
+[1.703s] Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/first_package_cpp -- -j16 -l16
+[1.863s] [100%] Built target minimal_publisher_node
+[1.884s] Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/build/first_package_cpp -- -j16 -l16
+[1.906s] Invoking command in '/root/ros2_ws/src/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/first_package_cpp
+[1.920s] -- Install configuration: ""
+[1.922s] -- Execute custom install script
+[1.923s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/lib/first_package_cpp/minimal_publisher_node
+[1.925s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/ament_index/resource_index/package_run_dependencies/first_package_cpp
+[1.926s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/ament_index/resource_index/parent_prefix_path/first_package_cpp
+[1.927s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.sh
+[1.928s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.dsv
+[1.928s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/environment/path.sh
+[1.929s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/environment/path.dsv
+[1.930s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/local_setup.bash
+[1.932s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/local_setup.sh
+[1.933s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/local_setup.zsh
+[1.933s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/local_setup.dsv
+[1.934s] -- Symlinking: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.dsv
+[1.950s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/ament_index/resource_index/packages/first_package_cpp
+[1.951s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig.cmake
+[1.952s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig-version.cmake
+[1.953s] -- Up-to-date symlink: /root/ros2_ws/src/install/first_package_cpp/share/first_package_cpp/package.xml
+[1.957s] Invoked command in '/root/ros2_ws/src/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/build/first_package_cpp
