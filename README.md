@@ -1,7 +1,7 @@
 #  ROS2 Turtle Controller — UI & Distance Nodes  
 A ROS2 project developed using **Docker**, **VS Code Remote Containers**, and **XLaunch** to control two turtles in `turtlesim` with collision & boundary monitoring.
 
-![Demo](src/assignment1_rt/assets/rt1_demo.gif)
+![Demo](assignment1_rt/assets/rt1_demo.gif)
 
 ## 📌 Overview
 
