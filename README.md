@@ -49,7 +49,7 @@ ros2 run turtlesim turtlesim_node
 ros2 service call /spawn turtlesim/srv/Spawn "{x: 5.5, y: 5.5, theta: 0.0}"
 ```
 
-### 3️⃣ Move turtle2 to bottom-left
+### 3️⃣ Move turtle2 to any desired position
 ```bash
 ros2 service call /turtle2/teleport_absolute turtlesim/srv/TeleportAbsolute "{x: 2.0, y: 2.0, theta: 0.0}"
 ```
